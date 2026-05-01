@@ -12,12 +12,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy
 
 ## Orden de ejecución
 
-**Es imprescindible ejecutqar los notebooks en el orden numerado**, ya que el notebook 02 generan los CSVs de los notebooks: 03, 04 y 05.
+**Es imprescindible ejecutar los notebooks en el orden numerado**, ya que el notebook 02 generan los CSVs de los notebooks: 03, 04 y 05.
 
 A lo largo de los notebooks se irán guardando las gráficas realizadas en la carpeta `figuras/`.
 
 ### 1. `01_EDA.ipynb` - Análisis Exploratorio de Datos
-Carga el dataset orginal (`rendimiento_estudiantes.csv`) y realia un análisis descriptivo completo: distribución de la variable objetivo, análisis de variables numéricas y categóricas, correlaciones y visualizaciones clave.
+Carga el dataset orginal (`rendimiento_estudiantes.csv`) y realiza un análisis descriptivo completo: distribución de la variable objetivo, análisis de variables numéricas y categóricas, correlaciones y visualizaciones clave.
 
 
 ### 2. `02_preprocesado.ipynb` - Preprocesado y división train/test
@@ -38,4 +38,4 @@ Aplica tres métodos (K-Means, AGNES y GMM) sobre un subconjunto de 10 variables
 
 ## Reproducibilidad
 
-Todos los notebooks fijan la semilla aleatoria con `semilla=42` y `np.random.seed(42)`. LA división train/test se realiza con `random_state=True` y `stratify=True`. ejecuanto los notebooks en el orden indicando se obtienen exactamente los mismos resultados que los reportados en el informe.
+Todos los notebooks fijan la semilla aleatoria con `semilla=42` y `np.random.seed(42)`. La división train/test se realiza con `random_state=True` y `stratify=True`. ejecuanto los notebooks en el orden indicando se obtienen exactamente los mismos resultados que los reportados en el informe.
